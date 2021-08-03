@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* vijual part of the brwser */
+  overflow: hidden; /* noscroll bars to show */
+  margin: 0;
+}
+
+textarea {
+  font-family: inherit;
+  color: #999;
+  border: none;
+  font-size: 18px;
+}
+
+.btn-btn {
+  border-radius: 10px;
+  height: 40px;
+  background-color: rgb(233, 126, 25);
+  font-size: 16px;
+  border: none;
+  color: #fff;
+}
+
+.btn-btn:hover {
+  cursor: pointer;
+}
+.btn-btn:active {
+  transform: scale(90%);
+}
+
+.no-supported-browser {
+  color: red;
+}
